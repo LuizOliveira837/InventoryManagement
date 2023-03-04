@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InventoryManagement</id>
+    <version>1.0.0</version>
+    <authors>InventoryManagement</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Dapper" version="2.0.123" exclude="Build,Analyzers" />
+        <dependency id="Dapper.Contrib" version="2.0.78" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SqlClient" version="5.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Luiz.Rocha\source\repos\InventoryManagement\InventoryManagement\bin\Debug\net5.0\InventoryManagement.runtimeconfig.json" target="lib\net5.0\InventoryManagement.runtimeconfig.json" />
+    <file src="C:\Users\Luiz.Rocha\source\repos\InventoryManagement\InventoryManagement\bin\Debug\net5.0\InventoryManagement.dll" target="lib\net5.0\InventoryManagement.dll" />
+  </files>
+</package>
